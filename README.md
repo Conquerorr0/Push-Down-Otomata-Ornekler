@@ -5,8 +5,7 @@
 Bu Java programı, aşağıdaki dilin kabul edilip edilmediğini kontrol etmek için bir Yığıt Otomatonu'nu (Pushdown Automaton - PDA) uygular:
 
 ### Dil
-\( L = \{a^n b^{2n} \mid a, b \geq 1\} \)
-
+L={a^nb^2n ∣ a,b≥1}
 Bu dildeki kelimeler, a harflerinin b harflerinin tam olarak iki katı olduğu tüm kombinasyonları içerir. Örneğin "aabbb", "aaabbbbbb" gibi kelimeler dilin bir parçasıdır, ancak "abb", "aab" gibi kelimeler değildir.
 
 ### Yığıt Otomatonu Kuralları
