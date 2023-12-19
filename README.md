@@ -6,7 +6,7 @@ Bu Java programı, aşağıdaki dilin kabul edilip edilmediğini kontrol etmek i
 
 ### Dil
 L={a^nb^2n ∣ a,b≥1}
-Bu dildeki kelimeler, a harflerinin b harflerinin tam olarak iki katı olduğu tüm kombinasyonları içerir. Örneğin "aabbb", "aaabbbbbb" gibi kelimeler dilin bir parçasıdır, ancak "abb", "aab" gibi kelimeler değildir.
+Bu dildeki kelimeler, a harflerinin b harflerinin tam olarak iki katı olduğu tüm kombinasyonları içerir. Örneğin "aabbbb", "aaabbbbbb" gibi kelimeler dilin bir parçasıdır, ancak "abbb", "aab" gibi kelimeler değildir.
 
 ### Yığıt Otomatonu Kuralları
 
@@ -34,7 +34,3 @@ Bu dildeki kelimeler, a harflerinin b harflerinin tam olarak iki katı olduğu t
 - Eğer girilen kelime dilin kurallarına uymuyorsa veya yığıtın sonunda hala eleman varsa, kelime dilin bir parçası olarak kabul edilmez.
 - Eğer girilen kelime dilin yapılandırmasına uyuyorsa ve yığıt boş ise, kelime dilin bir parçası olarak kabul edilir.
 
-### Kullanım
-- Programı çalıştırın.
-- Konsola "Kelime: " yazısı çıkar ve bir kelime girin (yalnızca 'a' ve 'b' karakterleri kabul edilir).
-- Program girilen kelimenin dilin bir parçası olup olmadığını kontrol eder ve sonucu ekrana yazdırır.
