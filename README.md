@@ -94,10 +94,10 @@ Bu dildeki kelimeler, a harflerinin b harflerinin tam olarak iki katı olduğu t
               System.out.println(word + " kelimesi otomata tarafindan taninmaz.");
           }
       }
-  }
-  
-  enum STATES {
-      Q0,
-      Q1,
-      Q2
-  }
+    }
+    
+    enum STATES {
+        Q0,
+        Q1,
+        Q2
+    }
