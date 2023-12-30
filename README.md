@@ -121,7 +121,7 @@ Bu Java kodu, kullanıcının girdiği bir kelimenin verilen dilde olup olmadı�
 **Dil:**  
 $L = \{a^n + b^m + c^k \mid n \geq 1, m \geq 2, k \geq 1, m = n + k\}$
 
-Bu dil, 'a', 'b' ve 'c' karakterlerini belirli kurallara göre birleştiren bir yapıdadır. Bu dilde 'a' karakterleri en az bir defa, 'b' karakterleri en az iki defa ve 'c' karakterleri de 'a' ve 'b' karakterlerinin toplamı kadar olmalıdır.
+Bu dil, 'a', 'b' ve 'c' karakterlerini belirli kurallara göre birleştiren bir yapıdadır. Bu dilde 'a' karakterleri ve c karakterleri en az bir defa, 'b' karakterleri en az 'a' ve 'c' karakterlerinin toplamı kadar olmalıdır.
 
 **Otomaton Kuralları:**
 
