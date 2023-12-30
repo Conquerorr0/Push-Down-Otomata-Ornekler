@@ -36,10 +36,10 @@ Bu dildeki kelimeler, a harflerinin b harflerinin tam olarak iki katı olduğu t
 
 ## Kod:
 
-  import java.util.Scanner;
-  import java.util.Stack;
-  
-  public class Q1 {
+    import java.util.Scanner;
+    import java.util.Stack;
+    
+    public class Q1 {
   
       public static void main(String[] args) {
           Scanner scanner = new Scanner(System.in);
